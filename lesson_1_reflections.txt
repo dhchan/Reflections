@@ -1,0 +1,7 @@
+asdasd
+
+git clone
+git log
+git diff
+git checkout
+
