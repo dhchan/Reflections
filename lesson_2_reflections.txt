@@ -1,0 +1,3 @@
+git init: make repo
+git status: check status of repo/staging area
+git add: add to staging area
