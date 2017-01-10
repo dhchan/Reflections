@@ -1,6 +1,6 @@
 asdasd
 
-git clone
+git clone (Url): clone a repo to your computer into the folder your are currently on
 git log
 git diff
 git checkout
