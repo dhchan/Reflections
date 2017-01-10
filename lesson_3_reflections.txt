@@ -1,5 +1,5 @@
 git remote: lets you see what remotes a repository has (list)
-git remote add (origin)(url): add a remote to your repository. insert your GitHub link as the url. origins is the standard name for having only one remote
+git remote add (origin)(url): add a remote to your repository. insert your GitHub link as the url. origin is the standard name for having only one remote
 
 git remote -v: lets you see a “verbose” listing of remotes (more information)
 
