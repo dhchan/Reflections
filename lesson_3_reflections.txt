@@ -19,3 +19,8 @@ git fetch (remote): if your local and github versions repository are different, 
 (this process is what git pull does: fetch and then merge)
 
 fastforward merge: when the branch you're merging into is an ancestor of the other (there is a direct path following the graph between each node)
+
+to make master branch the same as the one in the 
+
+git pull upstream master will make your local master into the most update master from the GitHub repository
+
