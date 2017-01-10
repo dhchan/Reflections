@@ -1,3 +1,36 @@
 git init: make repo
 git status: check status of repo/staging area
 git add: add to staging area
+
+git commit -m “message goes here”
+
+git diff with no arguments compares the working directory and the staging area
+git diff —-stage compares the staging area and the current repository 
+git reset —-hard resets any changes in the working directory and the staging area
+
+use the stating area to ensure one logical commit by making sure only one logical step is added before you commit 
+
+git branch: shows the branches, star next to which branch
+can use git checkout (branch here) to switch branches
+
+git branch (branch name): create a new branch with the branch name
+
+When to use branches? When experimental feature, adding something that shouldn’t be part of the main branch (language change, etc)
+
+remote branch: branch someone else made
+
+using log on different (checked out) branches will result in different commit history
+
+git log —-graph —-oneline (branch) (branch)
+
+each node on the graph (commit) knows who its parent is. Arrows point from child to parent, backwards until the very first initial commit. This means that some commits you create can be unreachable if they aren’t branched properly. If you want to retain the commit changes, then use git checkout -b new_branch_name
+
+head means “current commit”
+
+when you merge a branch, the name (label) if the sub-branch gets deleted. if you had done this before you merged, all those branches would have been lost (like deleting a pointer to a head of a node). 
+
+Merging creates a new node
+
+
+git show: show the difference between the commit you are on vs its parent
+git branch -d coins: deletes a branch label (pointer to head). won’t delete branch if you have merged already
