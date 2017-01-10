@@ -4,3 +4,7 @@ git remote add (origin)(url): add a remote to your repository. insert your GitHu
 git remote -v: lets you see a “verbose” listing of remotes (more information)
 
 git push (remote) (name of local branch to push): push branch using remote to GitHub
+
+edit test
+
+THIS SHOULD APPEAR IN MY LOCAL GIT REPOSITORY
