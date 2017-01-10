@@ -8,6 +8,14 @@ git push (remote) (name of local branch to push): push branch using remote to Gi
 git pull (remote) (name of branch you want to pull): pull branch from github to your own computer, attempting to merge
 
 forking: cloning within the context of git hub 
-cloning a forked repo from git hub automatically makes a remote named origins for you
+cloning from github automatically makes a remote named origins for you
 
 if you want someone to be able to push to your repository on github, make them a collaborator on the project 
+
+when two people are modifying the same fork, to resolve conflict, run...bash? 
+
+git fetch (remote): if your local and github versions repository are different, git fetch will pull the stuff from gitHub but add it to a new branch (called origin/master?) on your local repository without merging, where you can check the differences with git diff and such. you can then merge them if you want with git merge origin/master master
+
+(this process is what git pull does: fetch and then merge)
+
+fastforward merge: when the branch you're merging into is an ancestor of the other (there is a direct path following the graph between each node)
