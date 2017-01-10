@@ -5,3 +5,9 @@ git remote -v: lets you see a “verbose” listing of remotes (more information
 
 git push (remote) (name of local branch to push): push branch using remote to GitHub
 
+git pull (remote) (name of branch you want to pull): pull branch from github to your own computer, attempting to merge
+
+forking: cloning within the context of git hub 
+cloning a forked repo from git hub automatically makes a remote named origins for you
+
+if you want someone to be able to push to your repository on github, make them a collaborator on the project 
