@@ -27,6 +27,8 @@ each node on the graph (commit) knows who its parent is. Arrows point from child
 
 head means “current commit”
 
+git merge (branch 1) (branch 2), or get merge (branch): merges the branch you are currently on with the branch you specify
+
 when you merge a branch, the name (label) if the sub-branch gets deleted. if you had done this before you merged, all those branches would have been lost (like deleting a pointer to a head of a node). 
 
 Merging creates a new node
